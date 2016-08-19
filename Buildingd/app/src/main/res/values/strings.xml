@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Building</string>
+    <string name="title_activity_admin">Admin</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_resident">Resident</string>
+    <string name="title_activity_service_man">ServiceMan</string>
+    <string name="title_activity_user_managment">UserManagment</string>
+    <string name="title_activity_order_service">OrderService</string>
+    <string name="title_activity_view_data">ViewData</string>
+    <string name="title_activity_messages">MessagesActivity</string>
+    <string name="bump">B.U.M.P</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+</resources>

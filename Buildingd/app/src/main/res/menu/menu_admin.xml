@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/View_Data"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="View Data" />
+    <item android:id="@+id/Order_Service"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Order Service" />
+    <item android:id="@+id/Bills"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Bills" />
+    <item android:id="@+id/Messaging"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Messaging" />
+    <item android:id="@+id/User_Management"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="User Management" />
+    <item android:id="@+id/Contact_Us"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="ContactUs" />
+</menu>

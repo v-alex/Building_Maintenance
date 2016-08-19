@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdminActivitey.aproveUserActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/aproveUserIdET"
+            android:layout_weight="1"
+            android:hint="id" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPPOVE USER"
+        android:id="@+id/aproveUserRequestBTN"
+        android:onClick="aproveUser"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserFirstNameET"
+        android:hint="first name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/aproveUserRequestBTN"
+        android:layout_alignStart="@+id/aproveUserRequestBTN"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserlastNameET"
+        android:hint="last name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/updateUserFirstNameET"
+        android:layout_alignRight="@+id/updateUserFirstNameET"
+        android:layout_alignEnd="@+id/updateUserFirstNameET"
+        android:layout_alignLeft="@+id/updateUserFirstNameET"
+        android:layout_alignStart="@+id/updateUserFirstNameET"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/aproveUserAdressET"
+        android:hint="adress"
+        android:layout_below="@+id/updateUserTelephonet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/updateUserTelephonet"
+        android:layout_alignEnd="@+id/updateUserTelephonet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserEmailET"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/updateUserlastNameET"
+        android:hint="email" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserUsernameET"
+        android:layout_below="@+id/updateUserEmailET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/updateUserEmailET"
+        android:layout_alignEnd="@+id/updateUserEmailET"
+        android:hint="username" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserPasswordET"
+        android:layout_below="@+id/updateUserUsernameET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/updateUserTelephonet"
+        android:hint="telephone"
+        android:inputType="number"
+        android:layout_below="@+id/updateUserApartmentET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/updateUserApartmentET"
+        android:layout_alignEnd="@+id/updateUserApartmentET" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/updateUserApartmentET"
+        android:layout_below="@+id/updateUserPasswordET"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/updateUserPasswordET"
+        android:layout_alignEnd="@+id/updateUserPasswordET"
+        android:hint="apatrment" />
+</RelativeLayout>

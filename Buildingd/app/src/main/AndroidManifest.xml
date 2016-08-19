@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orgershov.building">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- grants permission to internet -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmp_logo"
+        android:label="BUMP"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GeneralAcrivitys.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminActivitey.Admin"
+            android:label="@string/title_activity_admin" />
+        <activity
+            android:name=".UserAcvitiys.Resident"
+            android:label="@string/title_activity_resident" />
+        <activity
+            android:name=".ServiceActivitys.ServiceMan"
+            android:label="@string/title_activity_service_man" />
+        <activity
+            android:name=".AdminActivitey.addUserActivity"
+            android:label="@string/title_activity_user_managment" />
+        <activity
+            android:name=".GeneralAcrivitys.OrderService"
+            android:label="@string/title_activity_order_service" />
+        <activity
+            android:name=".GeneralAcrivitys.ViewData"
+            android:label="@string/title_activity_view_data" />
+        <activity
+            android:name=".GeneralAcrivitys.MessagesActivity"
+            android:label="@string/title_activity_messages" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".GeneralAcrivitys.ContactUsActivity" />
+        <activity android:name=".GeneralAcrivitys.PayBillsActivity" />
+        <activity android:name=".AdminActivitey.dminBillsActivity" />
+        <activity android:name=".AdminActivitey.ShowPaymentsActivity" />
+        <activity android:name=".GeneralAcrivitys.SendMessageActivity" />
+        <activity android:name=".AdminActivitey.UserManagmentActivity" />
+        <activity android:name=".AdminActivitey.deleteUserActivity" />
+        <activity android:name=".AdminActivitey.apdateUserActivity" />
+        <activity android:name=".AdminActivitey.aproveUserRequsetActivity" />
+        <activity android:name=".AdminActivitey.aproveUserActivity" />
+        <activity android:name=".AdminActivitey.listOfUserTOAproveActivity" />
+        <activity android:name=".AdminActivitey.apdateSingleUserActivity"></activity>
+    </application>
+
+</manifest>
